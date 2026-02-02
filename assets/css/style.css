@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6f91, #ffb6c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', cursive;
+    overflow: hidden;
+}
+
+.card {
+    background: #fff;
+    padding: 35px 45px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.names {
+    font-size: 22px;
+    color: #ff4d6d;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: none;
+    background: #ff3366;
+    color: white;
+    cursor: pointer;
+}
